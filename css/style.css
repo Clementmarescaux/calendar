@@ -185,6 +185,9 @@ ul {
     color: white;
     border-radius: 50px;
 }
+
+
+
 /* COURSES */
 #en-btn {
     background-color: rgb(255, 0, 51);    
@@ -207,6 +210,8 @@ ul {
     text-decoration: none;
     font-weight:bold;
 }
+
+
 
 /* LOGIN */
 
@@ -234,7 +239,7 @@ ul {
 }
 
 
-
+/* FORMULAIRE DE CONNEXION */
 .modal-header {
     background-color: rgb(12, 117, 101);
     border: none;
@@ -300,7 +305,7 @@ ul {
     padding: .1rem .2rem;;
 }
 
-.course-subject > button:hover, .course-subject > button:focus {
+.course-subject  button:hover, .course-subject  button:focus {
     transition-duration: 0.1s;
     color: rgb(17, 167, 144);
     text-decoration: underline;
@@ -331,7 +336,7 @@ ul {
     font-weight: bold;
 }
 
-.download-content-btn {
+.modal-footer .download-content-btn {
     text-transform: uppercase;
     font-weight: bold;
     color: rgb(12, 117, 101);
@@ -339,7 +344,8 @@ ul {
     border: 1px solid rgb(12, 117, 101);
 }
 
-.download-content-btn:hover {
+.modal-footer .download-content-btn:hover {
+    text-decoration: none;
     color: white;
     background-color: rgb(12, 117, 101);
 
