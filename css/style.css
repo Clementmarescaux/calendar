@@ -1,0 +1,358 @@
+*{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+a {
+    color: rgb(40, 75, 73);
+}
+
+.bgsite {
+    background-color: rgb(234, 248, 246);
+    min-height:93vh;
+}
+
+.navbar-brand {
+    font-family: 'Luckiest Guy', cursive;
+    font-size:2rem;
+    margin: 0;
+
+}
+.navbar-light .navbar-brand {
+    color: rgb(12, 117, 101);
+}
+
+.navbar-light .navbar-brand:hover {
+    transition-duration: 0.2s;
+    text-shadow: 6px 6px 10px rgb(154, 158, 158);
+    color: rgb(12, 117, 101);
+    transform: scale(1.2);
+}
+
+.navbar {
+    box-shadow: 0 0 15px grey;
+    background-color: rgb(247, 247, 247);
+    margin: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(46, 46, 46);
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    color: rgb(46, 46, 46);
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+
+.navbar-toggler-icon i {
+    vertical-align: middle;
+    font-size: 1.6rem;
+    padding: 0;
+    color: rgb(46, 46, 46);
+}
+
+label {
+    margin-bottom: 0;
+
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+button:focus {
+    outline-color: rgb(12, 117, 101);
+}
+
+.prev-month, .next-month {
+    color: rgb(209, 206, 206);
+}
+
+.month {
+    display: inline-block;
+}
+
+h1, h2, h3, h5, h6, p {
+    color: rgb(37, 35, 35);
+}
+
+h3 {
+    font-weight: bold;
+}
+
+hr {
+    border-top: 1px solid rgb(190, 190, 190);
+}
+.title-bar {
+    width:50px;
+    border-top: 3px solid rgb(252, 151, 0);
+    border-radius: 50px;
+}
+
+a {
+   color: rgb(12, 117, 101);
+}
+
+
+
+.fa-angle-left, .fa-angle-right {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: rgb(75, 71, 71);
+}
+
+.fa-angle-left:hover, .fa-angle-right:hover {
+    transition-duration: 0.2s;
+    color: rgb(37, 35, 35);
+    text-shadow: 4px 4px 5px rgb(156, 154, 154);
+    font-size: 2rem;
+    font-weight: bold;
+    transform: scale(2);
+    animation: zoom-alternate .6s infinite alternate ease-in-out;
+    
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.navbar-brand {
+    margin-right: 10rem;
+}
+
+#signout {
+    font-size:1.5rem;
+}
+
+#filter-form, .input-group {
+   max-width: 300px;
+}
+
+.table .current-day {
+    background-color: rgb(223, 250, 246);
+    border: 1px solid rgb(147, 204, 204);
+    font-weight: bold;
+   
+}
+
+
+.table {
+    border: 1px solid rgb(225, 236, 236);
+    box-shadow: 0 0 15px rgb(156, 154, 154);
+    background-color: white;
+}
+
+.table td {
+    border: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.event-marker {
+    color:rgb(252, 151, 0);
+    right: 44%;
+    top: 75%;
+    font-size: 0.7rem;
+    text-shadow: 1px 1px 3px rgb(156, 154, 154);
+
+}
+
+.current-day .event-marker {
+    color:rgb(218, 37, 37);
+    top: 65%;
+}
+
+
+.card-header {
+    padding: 0;
+    background-color: transparent;
+    border: none; 
+    
+}
+
+.card {
+    border: none;
+}
+
+.card .btn {
+    margin: 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 50px;
+}
+/* COURSES */
+#en-btn {
+    background-color: rgb(255, 0, 51);    
+}
+
+#fr-btn {
+    background-color: rgb(0, 132, 255);    
+}
+
+#drt-btn {
+    background-color: rgb(255, 115, 0);    
+}
+
+.card .btn:hover, .btn:focus {
+    transition: all 0.1s ease;
+    box-shadow:1px 1px 5px grey;
+    margin: 2px;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+/* LOGIN */
+
+#pseudo-icon, #password-icon {
+    font-size: 1.5rem;
+    color: rgb(12, 117, 101);
+}
+
+/* A MODIFIER UNE FOIS CONNEXION BDD ETABLIE */
+#connect-btn {
+    background-color: rgb(255, 115, 0);
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px grey;
+    text-transform: uppercase;
+}
+
+#connect-btn:hover {
+    transition-duration: .2s;
+    text-decoration: none;
+    background-color: rgb(228, 102, 0);
+}
+
+
+
+.modal-header {
+    background-color: rgb(12, 117, 101);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.modal-header h3 {
+    color: white;
+}
+
+.modal-content {
+    background-color: rgba(234, 248, 246, .8);
+    border: none;
+    box-shadow: 10px 5px 30px black;
+}
+
+.bg-img {
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+#brand {
+    font-family: 'Luckiest Guy', cursive;
+    font-size:6rem;
+    color: white;
+    line-height: 8rem;
+    text-shadow: 10px 15px 19px black;
+    animation: updown 1s infinite alternate ease-in-out;
+    animation-delay: 1s;
+}
+
+#mobile-brand {
+    font-family: 'Luckiest Guy', cursive;
+    font-size:3rem;
+    color: white;
+    line-height: 8rem;
+    text-shadow: 10px 15px 19px black;
+    animation: updown 1s infinite alternate ease-in-out;
+    animation-delay: 1s;
+}
+
+/* STYLE DES MODALES CONTENU DE COURS */
+#quit-modal, .close {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: none;
+    
+}
+
+ #quit-modal-btn:hover, #quit-modal-btn:focus {
+    text-decoration: none;
+}
+
+.course-subject li > button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: rgb(12, 117, 101);
+    padding: .1rem .2rem;;
+}
+
+.course-subject > button:hover, .course-subject > button:focus {
+    transition-duration: 0.1s;
+    color: rgb(17, 167, 144);
+    text-decoration: underline;
+    outline-color: rgb(234, 248, 246);
+}
+
+.course-subject .modal-header {
+    background-color: rgb(12, 117, 101);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.course-subject .modal-header h5 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.course-subject .modal-content {
+    text-align: justify;
+    background-color: rgba(234, 248, 246, .9);
+    border: none;
+    box-shadow: 0 0 50px black;;
+}
+
+.course-subject .modal-content h6 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.download-content-btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(12, 117, 101);
+    background-color: transparent;
+    border: 1px solid rgb(12, 117, 101);
+}
+
+.download-content-btn:hover {
+    color: white;
+    background-color: rgb(12, 117, 101);
+
+}
+
+@keyframes updown {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(0.15em); }
+   }
+
+   @keyframes zoom-alternate {    
+    0% { transform: scale(1); }
+    100% { transform: scale(1.5); }
+   }
+   
+   
