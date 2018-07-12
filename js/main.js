@@ -4,7 +4,7 @@ $(function(){
     $('#login').addClass('show');
 
    function flash(){ 
-        $("#brand").fadeOut(850).fadeIn(50); 
+        $("#brand").delay(2000).fadeOut(850).fadeIn(50).scale(1.3); 
      } 
      flash();
      /*
